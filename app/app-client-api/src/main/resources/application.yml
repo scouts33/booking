@@ -1,0 +1,19 @@
+spring.profiles.include:
+  - common
+  - domain
+
+spring:
+  application:
+    name: booking-client-api-service
+  data:
+    mongodb:
+      port: 27017
+      host: localhost
+      database: booking
+      username: root
+      password: asan1400.
+  redis:
+    host: localhost
+    port: 6379
+#  config:
+#    import: "optional:configserver:http://localhost:8888"
